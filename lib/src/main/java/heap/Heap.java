@@ -77,7 +77,8 @@ public final class Heap<V, P extends Comparable<P>> {
         // When done, this should pass test100Add.
         //
         // TODO 3.1: Update this method to maintain class invariants 3-5.
-        throw new UnsupportedOperationException();
+        // (delete the following line after completing TODO 1.1)
+        throw new UnsupportedOperationException(); 
     }
 
     /** Return the number of values in this heap.
