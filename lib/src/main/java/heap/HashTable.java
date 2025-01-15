@@ -104,8 +104,8 @@ public class HashTable<K,V> {
 
 
     // suggested helper method:
-    /* check the load factor; if it exceeds 0.8, double the array size
-     * (capacity) and rehash values from the old array to the new array */
+    /* check the load factor; if it exceeds 0.8, double the capacity 
+     * and rehash values from the old array to the new array */
     private void growIfNeeded() {
       throw new UnsupportedOperationException();
     }
